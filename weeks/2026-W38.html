@@ -5,12 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Australian Caselaw Digest: week of 14–20 Sep 2026</title>
 <meta name="description" content="A weekly plain-language digest of Australian court and tribunal decisions, generated automatically from public data on AustLII.">
+<link rel="alternate" type="application/atom+xml" title="Australian Caselaw Digest: all decisions" href="../feed.xml">
 <link rel="preload" href="../assets/fonts/Manrope-VF.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="../assets/parkco.css">
 </head>
 <body>
 <header class="bar"><div class="in">
   <a class="logo" href="../index.html"><img src="../assets/logo-positive.png" alt="Park &amp; Co Lawyers" width="880" height="258"></a>
+  <nav class="sitenav" aria-label="Site"><ul><li><a href="../index.html" data-en="Latest week" data-kr="최근 주">Latest week</a></li><li><a href="../topics/index.html" data-en="Topics" data-kr="주제별">Topics</a></li><li><a href="../provisions/index.html" data-en="Provisions" data-kr="조항별">Provisions</a></li><li><a href="../holdings.html" data-en="Key holdings" data-kr="핵심 판시">Key holdings</a></li><li><a href="../archive.html" data-en="Archive" data-kr="아카이브">Archive</a></li></ul></nav>
   <button id="lang-toggle" type="button">한국어</button>
 </div></header>
 
@@ -18,7 +20,7 @@
   <p class="overline" data-en="Weekly caselaw digest" data-kr="주간 판례 다이제스트">Weekly caselaw digest</p>
   <h1><a href="../index.html" data-en="Australian Caselaw Digest" data-kr="호주 판례 다이제스트">Australian Caselaw Digest</a></h1>
   <p class="sub" data-en="Recent decisions of Australian courts and tribunals, summarised in plain language and updated daily from public data on AustLII." data-kr="호주 법원과 재판소의 최근 판결을 쉬운 말로 요약합니다. AustLII 공개 데이터를 바탕으로 매일 자동 갱신됩니다.">Recent decisions of Australian courts and tribunals, summarised in plain language and updated daily from public data on AustLII.</p>
-  <p class="updated"><span data-en="Last updated:" data-kr="마지막 업데이트:">Last updated:</span> 16 Oct 2026, 22:56 AEST</p>
+  <p class="updated"><span data-en="Last updated:" data-kr="마지막 업데이트:">Last updated:</span> 16 Oct 2026, 23:31 AEST</p>
 </div></section>
 
 <main class="in">
@@ -37,171 +39,179 @@
 </div>
 
 <nav class="weeknav"><a href="2026-W37.html">‹ <span data-en="Prev week" data-kr="이전 주">Prev week</span> (7–13 Sep 2026)</a><a href="2026-W39.html"><span data-en="Next week" data-kr="다음 주">Next week</span> (21–27 Sep 2026) ›</a></nav>
-
-<h2 class="day">18 Sep 2026</h2>
-
-<article class="card p-emp">
+<div class="filters" id="filters" hidden>
+  <div class="f-row">
+    <div class="f-field"><label class="f-l" for="f-q" data-en="Search title, citation or summary" data-kr="제목·인용·요약 검색">Search title, citation or summary</label>
+      <input id="f-q" type="search" autocomplete="off"></div>
+    <div class="f-field"><label class="f-l" for="f-court" data-en="Court or tribunal" data-kr="법원·재판소">Court or tribunal</label>
+      <select id="f-court"><option value="" data-en="All" data-kr="전체">All</option><option value="Administrative Review Tribunal">Administrative Review Tribunal</option><option value="Fair Work Commission">Fair Work Commission</option><option value="Federal Circuit and Family Court of Australia (Division 1 First Instance)">Federal Circuit and Family Court of Australia (Division 1 First Instance)</option><option value="Supreme Court of New South Wales">Supreme Court of New South Wales</option><option value="Supreme Court of South Australia">Supreme Court of South Australia</option><option value="Supreme Court of Victoria">Supreme Court of Victoria</option></select></div>
+    <div class="f-field f-btns">
+      <button type="button" id="f-ratio" aria-pressed="false" data-en="Key holding only" data-kr="핵심 판시만">Key holding only</button>
+      <button type="button" id="f-reset" data-en="Clear filters" data-kr="필터 초기화">Clear filters</button>
+    </div>
+  </div>
+  <div class="f-topics" role="group" aria-labelledby="f-topics-l"><span class="f-l" id="f-topics-l" data-en="Topics (any of):" data-kr="주제 (하나 이상):">Topics (any of):</span><button type="button" class="f-topic" aria-pressed="false" data-slug="employment-workplace">Employment &amp; workplace <span class="cnt">(9)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="tribunal-review">Tribunal review <span class="cnt">(4)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="visa-refusal-review">Visa refusal review <span class="cnt">(4)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="character-test">Character test <span class="cnt">(3)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="migration">Migration <span class="cnt">(3)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="visa-cancellation">Visa cancellation <span class="cnt">(3)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="visa-nomination">Visa nomination <span class="cnt">(3)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="family-law">Family law <span class="cnt">(2)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="property">Property <span class="cnt">(2)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="bankruptcy-insolvency">Bankruptcy &amp; insolvency <span class="cnt">(1)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="contracts">Contracts <span class="cnt">(1)</span></button><button type="button" class="f-topic" aria-pressed="false" data-slug="criminal-law">Criminal law <span class="cnt">(1)</span></button></div>
+  <p id="f-count" class="f-count" aria-live="polite"></p>
+</div>
+<section class="grp"><h2 class="day">18 Sep 2026</h2>
+<article class="card p-emp" id="c2172" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="0">
   <h3>UGL Operations and Maintenance Pty Ltd</h3>
   <div class="meta"><span class="chip">18 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2593</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2593.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2593.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="UGL Operations and Maintenance Pty Ltd [2026] FWCA 2593" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-fam">
+<article class="card p-fam" id="c2600" data-court="Federal Circuit and Family Court of Australia (Division 1 First Instance)" data-topics="family-law" data-ratio="0">
   <h3>Pavlovskaya &amp; Ricchetti</h3>
   <div class="meta"><span class="chip">18 Sep 2026</span><span class="chip">Federal Circuit and Family Court of Australia (Division 1 First Instance)</span><span class="chip">[2026] FedCFamC1F 634</span><span class="chip topic p-fam">Family law</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/634.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/634.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Pavlovskaya &amp; Ricchetti [2026] FedCFamC1F 634" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card">
+<article class="card" id="c2560" data-court="Supreme Court of South Australia" data-topics="" data-ratio="0">
   <h3>ANDERSON v POLICE</h3>
   <div class="meta"><span class="chip">18 Sep 2026</span><span class="chip">Supreme Court of South Australia</span><span class="chip">[2026] SASC 148</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/sa/SASC/2026/148.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/sa/SASC/2026/148.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="ANDERSON v POLICE [2026] SASC 148" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card">
+<article class="card" id="c2022" data-court="Supreme Court of Victoria" data-topics="property" data-ratio="0">
   <h3>Re the Estate of Sharon Louise Walker</h3>
   <div class="meta"><span class="chip">18 Sep 2026</span><span class="chip">Supreme Court of Victoria</span><span class="chip">[2026] VSC 653</span><span class="chip topic">Property</span></div>
   <div class="meta" style="font-size:.85rem;color:var(--muted)"><span data-en="Before:" data-kr="재판부:">Before:</span> Barrett AsJ</div>
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/vic/VSC/2026/653.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/vic/VSC/2026/653.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Re the Estate of Sharon Louise Walker [2026] VSC 653" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-<h2 class="day">17 Sep 2026</h2>
-
-<article class="card p-imm">
+</section>
+<section class="grp"><h2 class="day">17 Sep 2026</h2>
+<article class="card p-imm" id="c2099" data-court="Administrative Review Tribunal" data-topics="tribunal-review visa-cancellation visa-nomination visa-refusal-review character-test migration" data-ratio="1">
   <h3>Majak and Minister for Immigration and Citizenship (Migration)</h3>
-  <div class="meta"><span class="chip">17 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2277</span><span class="chip topic p-imm">Migration — court challenge</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa nomination</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
+  <div class="meta"><span class="chip">17 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2277</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa nomination</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
   
-  <div class="body">The applicant, a South Sudanese-born man holding a Class XB Subclass 202 Global Special Humanitarian visa, had his visa mandatorily cancelled under s501(3A) after being convicted of numerous assaults and antisocial theft offences. He sought revocation of the cancellation, and the Tribunal set aside the delegate&#x27;s decision and substituted a decision to revoke the cancellation, finding &#x27;another reason&#x27; under s501CA(4)(b)(ii) based on the best interests of his newborn daughter and the severe impediments he would face if removed to South Sudan.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2277.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">Majak sought review of a delegate’s decision not to revoke the mandatory cancellation of his Class XB Subclass 202 visa under s 501(3A) after serious assault convictions. The Tribunal accepted he failed the character test but found “another reason” to revoke under s 501CA(4)(b)(ii), principally the best interests of his infant daughter and the extreme impediments if removed to South Sudan. It set aside the delegate’s decision and substituted revocation.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">Where the Tribunal is satisfied on the evidence that another reason exists, it should set aside the non-revocation decision and substitute revocation under s 501CA(4)(b)(ii).</p><blockquote>Having reached this conclusion, I find that there is &#x27;another reason&#x27; for the revocation of the cancellation decision for the purposes of section 501CA(4)(b)(ii) of the Act. Accordingly, it is appropriate for me to set aside the decision under review and substitute decision that the cancellation decision be revoked.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2277.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Majak and Minister for Immigration and Citizenship (Migration) [2026] ARTA 2277" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2171" data-court="Fair Work Commission" data-topics="employment-workplace contracts" data-ratio="0">
   <h3>Airbus Australia Pacific Limited trading as Airbus Australia Pacific</h3>
   <div class="meta"><span class="chip">17 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2556</span><span class="chip topic p-emp">Employment &amp; workplace</span><span class="chip topic">Contracts</span></div>
   
-  <div class="body">Airbus Australia Pacific applied to terminate the Airbus Australia Pacific (Oakey) Enterprise Agreement 2023 on the ground that no employees are covered or likely to be covered because the ARH program at the Oakey site ceased and all employees exited through redundancy or ended employment. The Commission was satisfied the agreement was obsolete, the employer and the ALAEA supported termination, and no s226(4) matters militated against termination. The agreement was terminated.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2556.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">Airbus Australia Pacific applied under s 225 of the Fair Work Act 2009 (Cth) to terminate the Airbus Australia Pacific (Oakey) Enterprise Agreement 2023 after its nominal expiry date. The agreement covered only ARH program work at Oakey, which had ceased, and no employees were covered or likely to be covered. The Fair Work Commission terminated the agreement.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2556.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Airbus Australia Pacific Limited trading as Airbus Australia Pacific [2026] FWCA 2556" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-<h2 class="day">16 Sep 2026</h2>
-
-<article class="card p-imm">
+</section>
+<section class="grp"><h2 class="day">16 Sep 2026</h2>
+<article class="card p-imm" id="c2549" data-court="Administrative Review Tribunal" data-topics="tribunal-review visa-nomination visa-refusal-review bankruptcy-insolvency" data-ratio="1">
   <h3>FPXJ and Secretary, Department of Social Services (Practice and procedure)</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2321</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa nomination</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic">Bankruptcy &amp; insolvency</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2321.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">The Applicant, FPXJ, sought an extension of time to bring second review applications in the Administrative Review Tribunal against two AAT first review decisions dated 19 August 2019 and 29 January 2020 concerning disability support pension debts. The Tribunal rejected his procedural and bias arguments and refused the extension. It found the delay exceeded six years, was not fully explained, and that reopening settled matters would prejudice the Respondent and wider public, with no practical utility in the substantive review.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">Under s 19 of the ART Act, the Tribunal may refuse an extension of time where significant delay, prejudice and lack of practical utility mean it is not reasonable in all the circumstances to extend time.</p><blockquote>Given this, and given the prejudice to the Respondent and to the wider public if an extension of time is granted, the Tribunal has decided that it is not reasonable in all of the circumstances to extend time for the Applicant to make second review applications. The extension of time applications are refused by the Tribunal.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2321.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="FPXJ and Secretary, Department of Social Services (Practice and procedure) [2026] ARTA 2321" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2170" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>Guide Dogs NSW/ACT</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2575</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2575.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">In applying the better off overall test, the Commission may objectively treat fewer ordinary hours with slightly lower annual pay as an overall benefit to employees.</p><blockquote>Different employees may have different views about the relative benefit of working 3 fewer ordinary hours each week for slightly less annual pay under the Agreement, but on an objective assessment I consider the trade-off between working 3 fewer hours per week for slightly less annual pay is a benefit to employees.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2575.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Guide Dogs NSW/ACT [2026] FWCA 2575" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2169" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>St Andrew&#x27;s Toowoomba Hospital</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2572</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body">St Andrew’s Toowoomba Hospital applied for approval of a single-enterprise agreement covering nurses. The Commission identified and corrected obvious errors (delegates rights clause, compassionate leave typo) under s.218A, accepted undertakings under s.190, and approved the agreement. The agreement operates from 23 September 2026 with a nominal expiry date of 30 June 2028.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2572.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">In St Andrew&#x27;s Toowoomba Hospital [2026] FWCA 2572, the Fair Work Commission approved a single-enterprise nurses agreement under s.185 of the Fair Work Act 2009 (Cth). The Commission corrected two obvious drafting errors under s.218A, accepted undertakings under s.190, and found the approval requirements met despite likely NES inconsistencies. The agreement operates from 23 September 2026 and expires 30 June 2028.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">The Fair Work Commission may amend an enterprise agreement to correct obvious errors, defects or irregularities under s.218A of the Fair Work Act 2009 (Cth).</p><blockquote>I am satisfied that these issues each constitute obvious errors, defects, or irregularities and I will amend the Agreement accordingly pursuant to s.218A of the Act.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2572.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="St Andrew&#x27;s Toowoomba Hospital [2026] FWCA 2572" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2168" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>Regal Cream Products Pty Ltd Trading AS Bulla Dairy Foods</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2571</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body">Regal Cream Products Pty Ltd (Bulla Dairy Foods) applied for approval of the Bulla Dairy Foods Colac Maintenance Enterprise Agreement 2026-2029 under s.185 of the Fair Work Act 2009. The Commission found a late NERR distribution to be a minor procedural error that did not disadvantage employees, noted NES inconsistencies were resolved by the agreement&#x27;s NES precedence clause, and replaced the missing consultation term with the model consultation term.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2571.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">Regal Cream Products Pty Ltd T/A Bulla Dairy Foods applied under s.185 of the Fair Work Act 2009 (Cth) for approval of the Bulla Dairy Foods Colac Maintenance Enterprise Agreement 2026-2029. The Fair Work Commission approved the agreement after accepting a late NERR distribution was a minor procedural error not defeating genuine agreement, and resolving NES and consultation-term issues. The agreement operates from 7 days after approval and has a nominal expiry date of 30 June 2029.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">A late NERR distribution is a minor procedural or technical error under s.188(5) that does not prevent a genuine agreement where employees were not likely to have been disenfranchised or disadvantaged.</p><blockquote>I am satisfied (taking into consideration s.188(5) of the Act and the decision in Huntsman Chemical Company Australia Pty Limited T/A RMAX Rigid Cellular Plastics &amp; Others ) that the procedural or technical error is minor and that the employees were not likely to have been disadvantaged, and accordingly, that there has been a genuine agreement.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2571.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Regal Cream Products Pty Ltd Trading AS Bulla Dairy Foods [2026] FWCA 2571" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2167" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>Infraworks Maintenance Pty Ltd Trading as Infraworks</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2526</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body">Infraworks Maintenance Pty Ltd applied under s 185 of the Fair Work Act 2009 for approval of a single enterprise agreement covering maintenance work at the Port Botany (Patrick) site. The Commission also granted an application under s 218A to correct administrative errors in the agreement, and noted that the delegates&#x27; rights clause and model consultation term from the Stevedoring Industry Award 2020 were taken to be terms of the agreement.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2526.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">Infraworks Maintenance Pty Ltd applied to the Fair Work Commission under s 185 of the Fair Work Act 2009 (Cth) for approval of a single-enterprise maintenance agreement covering Port Botany (Patrick) stevedoring operations and the MUA. The Commission corrected administrative errors under s 218A, then approved the agreement after being satisfied that ss 186 and 187 were met. The agreement operates from 23 September 2026 and expires 30 June 2030.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">Under s 218A of the Fair Work Act 2009 (Cth), the Commission may vary an enterprise agreement to correct an obvious error, defect or irregularity, but this slip-rule power is exercised cautiously and only for uncontroversial matters.</p><blockquote>Section 218A empowers the Commission to vary an agreement to correct an obvious error, defect or irregularity in an enterprise agreement. It is a power analogous to the slip rule and should for that reason be exercised with caution and confined to uncontroversial matters.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2526.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Infraworks Maintenance Pty Ltd Trading as Infraworks [2026] FWCA 2526" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2166" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>Lifehouse Australia as the Trustee for Lifehouse Australia Trust Trading AS Chris O&#x27;Brien Lifehouse</h3>
   <div class="meta"><span class="chip">16 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2522</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body">Chris O&#x27;Brien Lifehouse applied for approval of a single enterprise agreement covering medical physicists. The Commission identified that certain leave and shiftworker definitions were more restrictive than the Award, but accepted undertakings from the employer to address these concerns and was satisfied the agreement passed the better off overall test. The agreement was approved, with the HSU noted as covered, operating from 23 September 2026 until 31 August 2029.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2522.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">In Lifehouse Australia as the Trustee for Lifehouse Australia Trust Trading AS Chris O’Brien Lifehouse [2026] FWCA 2522, the employer applied under s.185 of the Fair Work Act 2009 (Cth) for approval of the Chris O’Brien Lifehouse Medical Physicists Agreement 2026. The Commission noted the agreement’s annual leave and shiftworker provisions were more restrictive than the Health Professionals and Support Services Award 2020, but accepted s.190 undertakings and was satisfied the agreement passed the better off overall test.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">An enterprise agreement may pass the better off overall test despite terms more restrictive than the award where the employer demonstrates significant enhancements against the award and NES such that employees are better off overall.</p><blockquote>The Employer provided submissions that the Agreement still passes the better off overall test because the Agreement provides for significant enhancements on the Award and the National Employment Standards (NES). I am satisfied having regard to those submissions that employees covered by the Agreement are better off overall compared to the Award.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2522.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Lifehouse Australia as the Trustee for Lifehouse Australia Trust Trading AS Chris O&#x27;Brien Lifehouse [2026] FWCA 2522" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-<h2 class="day">15 Sep 2026</h2>
-
-<article class="card p-imm">
+</section>
+<section class="grp"><h2 class="day">15 Sep 2026</h2>
+<article class="card p-imm" id="c2098" data-court="Administrative Review Tribunal" data-topics="tribunal-review visa-cancellation visa-refusal-review character-test migration" data-ratio="1">
   <h3>Ututaonga and Minister for Immigration and Citizenship (Migration)</h3>
-  <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2285</span><span class="chip topic p-imm">Migration — court challenge</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
+  <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2285</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
   
-  <div class="body">The applicant, a New Zealand citizen, had her Class TY Subclass 444 visa mandatorily cancelled due to her criminal offending. She sought revocation of that cancellation, and the Tribunal weighed the protection of the Australian community and community expectations against her ties to Australia and the best interests of her children. The Tribunal affirmed the delegate&#x27;s decision not to revoke the cancellation.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2285.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">This is a migration review of a delegate’s decision not to revoke the mandatory cancellation of a New Zealand citizen’s Class TY Subclass 444 Special Category (Temporary) visa under s 501CA(4) of the Migration Act 1958 (Cth). The applicant had a substantial criminal record, including serious drug supply offences, and the Tribunal had to weigh the Direction no. 110 considerations for and against revocation.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">In exercising the s 501CA(4) discretion, the Tribunal must weigh all primary and other considerations under Direction no. 110 in a single evaluation, with greater weight generally given to protection of the Australian community.</p><blockquote>In determining the weight to be applied to each consideration, the Tribunal considered the primary and other considerations and weighed them in light of the evidence and findings using the guidance provided by the Direction. Greater weight must generally be given to the protection of the Australian community than other primary considerations.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2285.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Ututaonga and Minister for Immigration and Citizenship (Migration) [2026] ARTA 2285" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-imm">
+<article class="card p-imm" id="c2097" data-court="Administrative Review Tribunal" data-topics="tribunal-review visa-cancellation visa-nomination visa-refusal-review character-test migration" data-ratio="1">
   <h3>ROBB and Minister for Immigration and Citizenship (Migration)</h3>
-  <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2279</span><span class="chip topic p-imm">Migration — court challenge</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa nomination</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
+  <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Administrative Review Tribunal</span><span class="chip">[2026] ARTA 2279</span><span class="chip topic">Tribunal review</span><span class="chip topic p-imm">Visa cancellation</span><span class="chip topic p-imm">Visa nomination</span><span class="chip topic p-imm">Visa refusal review</span><span class="chip topic p-imm">Character test</span><span class="chip topic p-imm">Migration</span></div>
   
-  <div class="body">The Tribunal affirmed the delegate&#x27;s decision not to revoke the mandatory cancellation of the applicant&#x27;s visa under s 501CA(4) of the Migration Act. The Tribunal found that the protection of the Australian community, family violence, and community expectations considerations weighed very strongly against revocation, outweighing considerations favouring revocation such as impediments if removed and best interests of minor children.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2279.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">The Tribunal affirmed a delegate’s decision not to revoke the mandatory cancellation of Mr Robb’s subclass 155 visa under s 501(3A) of the Migration Act 1958 (Cth). Mr Robb accepted he failed the character test because of a substantial criminal record, and the Tribunal found the protection of the Australian community, family violence and community expectations outweighed his ties and rehabilitation claims. The case is a fact-specific Direction No. 110 review.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">Where an applicant fails the character test, the Tribunal can revoke a mandatory visa cancellation only if satisfied under s 501CA(4)(b)(ii) that there is another reason, assessed through Direction No. 110.</p><blockquote>The statutory power to revoke will only be enlivened if there is &#x27;another reason&#x27; why the Cancellation Decision should be revoked.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/ARTA/2026/2279.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="ROBB and Minister for Immigration and Citizenship (Migration) [2026] ARTA 2279" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2165" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="1">
   <h3>Hartfell Pty Ltd as Trustee for The Haylock Family Trust</h3>
   <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2564</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body">Hartfell Pty Ltd, trading as Emerald Carrying Company, applied for approval of a single-enterprise agreement covering bulk liquids operations in Central Queensland. The Commission raised concerns about the agreement and accepted a written undertaking from the employer, which is taken to be a term of the agreement. The agreement was approved, with the TWU covered, and it will operate from 29 September 2026 with a nominal expiry date of 15 September 2030.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2564.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="ratio"><div class="ratio-h" data-en="Key holding" data-kr="핵심 판시">Key holding</div><p class="ratio-prop">An undertaking accepted by the Commission under s.190 becomes a term of the enterprise agreement under s.201(3).</p><blockquote>Pursuant to s.190 of the Act, I accept the undertaking. In accordance with s.201(3) of the Act, I note that the undertaking is taken to be a term of the Agreement.</blockquote><p class="ratio-note" data-en="Verbatim excerpt, AI-selected. Check the full text." data-kr="판결문 원문 발췌, AI 선택. 원문을 확인하십시오.">Verbatim excerpt, AI-selected. Check the full text.</p></div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2564.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Hartfell Pty Ltd as Trustee for The Haylock Family Trust [2026] FWCA 2564" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-emp">
+<article class="card p-emp" id="c2164" data-court="Fair Work Commission" data-topics="employment-workplace" data-ratio="0">
   <h3>Civil &amp; Allied Technical Construction</h3>
   <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Fair Work Commission</span><span class="chip">[2026] FWCA 2562</span><span class="chip topic p-emp">Employment &amp; workplace</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2562.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body">Deputy President O’Keeffe approved the CATCON South Australia General Works Workplace Agreement 2026-2029 under s.185 of the Fair Work Act 2009. The Commission inserted a delegates’ rights clause, accepted undertakings, and disregarded minor NERR errors before approving the agreement. The agreement operates from 22 September 2026 and expires 30 June 2029.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FWCA/2026/2562.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Civil &amp; Allied Technical Construction [2026] FWCA 2562" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card">
+<article class="card" id="c2599" data-court="Federal Circuit and Family Court of Australia (Division 1 First Instance)" data-topics="criminal-law" data-ratio="0">
   <h3>Zorka &amp; Tottie</h3>
   <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Federal Circuit and Family Court of Australia (Division 1 First Instance)</span><span class="chip">[2026] FedCFamC1F 624</span><span class="chip topic">Criminal law</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/624.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/624.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Zorka &amp; Tottie [2026] FedCFamC1F 624" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card p-fam">
+<article class="card p-fam" id="c2008" data-court="Federal Circuit and Family Court of Australia (Division 1 First Instance)" data-topics="family-law" data-ratio="0">
   <h3>Lyric &amp; Lyric</h3>
   <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Federal Circuit and Family Court of Australia (Division 1 First Instance)</span><span class="chip">[2026] FedCFamC1F 623</span><span class="chip topic p-fam">Family law</span></div>
   
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/623.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC1F/2026/623.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Lyric &amp; Lyric [2026] FedCFamC1F 623" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
-
-<article class="card">
+<article class="card" id="c2461" data-court="Supreme Court of New South Wales" data-topics="property" data-ratio="0">
   <h3>Muts v Le &amp; Anor</h3>
   <div class="meta"><span class="chip">15 Sep 2026</span><span class="chip">Supreme Court of New South Wales</span><span class="chip">[2026] NSWSC 1134</span><span class="chip topic">Property</span></div>
   <div class="meta" style="font-size:.85rem;color:var(--muted)"><span data-en="Before:" data-kr="재판부:">Before:</span> Coleman J Decision: (1) The plaintiff’s Notice of Motion filed 24 April 2026 is</div>
-  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision — read the full text via the link below." data-kr="이 판결은 요약이 없습니다 — 아래 링크에서 원문을 확인하세요.">No plain summary is available for this decision — read the full text via the link below.</div>
-  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/nsw/NSWSC/2026/1134.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
+  <div class="body" style="color:var(--muted)" data-en="No plain summary is available for this decision. Read the full text via the link below." data-kr="이 판결은 요약이 없습니다. 아래 링크에서 원문을 확인하십시오.">No plain summary is available for this decision. Read the full text via the link below.</div>
+  <div class="src"><a href="https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/nsw/NSWSC/2026/1134.html" target="_blank" rel="noopener">Full text on AustLII ↗</a> <button type="button" class="copy-cite" data-cite="Muts v Le &amp; Anor [2026] NSWSC 1134" data-en="Copy citation" data-kr="인용 복사" hidden>Copy citation</button> &nbsp;·&nbsp; <span data-en="Summaries are auto-generated; the full text on AustLII is the authoritative version." data-kr="요약은 자동 생성이며, AustLII 원문이 정본입니다.">Summaries are auto-generated; the full text on AustLII is the authoritative version.</span></div>
 </article>
+</section>
 
 <nav class="weeknav"><a href="2026-W37.html">‹ <span data-en="Prev week" data-kr="이전 주">Prev week</span> (7–13 Sep 2026)</a><a href="2026-W39.html"><span data-en="Next week" data-kr="다음 주">Next week</span> (21–27 Sep 2026) ›</a></nav>
 
 <details class="archive"><summary data-en="Archive by week" data-kr="주별 아카이브">Archive by week</summary><details open><summary>2026</summary><details><summary>October 2026</summary><div class="weeks"><a href="2026-W42.html">W42 · 12–18 Oct 2026</a> <span class="cnt">(109)</span> <a href="2026-W41.html">W41 · 5–11 Oct 2026</a> <span class="cnt">(110)</span></div></details><details><summary>September 2026</summary><div class="weeks"><a href="2026-W40.html">W40 · 28 Sep – 4 Oct 2026</a> <span class="cnt">(18)</span> <a href="2026-W39.html">W39 · 21–27 Sep 2026</a> <span class="cnt">(8)</span> <a class="here" href="2026-W38.html">W38 · 14–20 Sep 2026</a> <span class="cnt">(19)</span> <a href="2026-W37.html">W37 · 7–13 Sep 2026</a> <span class="cnt">(9)</span></div></details><details><summary>August 2026</summary><div class="weeks"><a href="2026-W36.html">W36 · 31 Aug – 6 Sep 2026</a> <span class="cnt">(6)</span> <a href="2026-W35.html">W35 · 24–30 Aug 2026</a> <span class="cnt">(15)</span> <a href="2026-W34.html">W34 · 17–23 Aug 2026</a> <span class="cnt">(10)</span> <a href="2026-W33.html">W33 · 10–16 Aug 2026</a> <span class="cnt">(2)</span> <a href="2026-W32.html">W32 · 3–9 Aug 2026</a> <span class="cnt">(10)</span></div></details><details><summary>July 2026</summary><div class="weeks"><a href="2026-W31.html">W31 · 27 Jul – 2 Aug 2026</a> <span class="cnt">(2)</span> <a href="2026-W30.html">W30 · 20–26 Jul 2026</a> <span class="cnt">(3)</span> <a href="2026-W29.html">W29 · 13–19 Jul 2026</a> <span class="cnt">(4)</span> <a href="2026-W28.html">W28 · 6–12 Jul 2026</a> <span class="cnt">(6)</span></div></details><details><summary>June 2026</summary><div class="weeks"><a href="2026-W27.html">W27 · 29 Jun – 5 Jul 2026</a> <span class="cnt">(4)</span> <a href="2026-W26.html">W26 · 22–28 Jun 2026</a> <span class="cnt">(1)</span> <a href="2026-W25.html">W25 · 15–21 Jun 2026</a> <span class="cnt">(2)</span> <a href="2026-W24.html">W24 · 8–14 Jun 2026</a> <span class="cnt">(3)</span> <a href="2026-W23.html">W23 · 1–7 Jun 2026</a> <span class="cnt">(4)</span></div></details><details><summary>May 2026</summary><div class="weeks"><a href="2026-W22.html">W22 · 25–31 May 2026</a> <span class="cnt">(4)</span> <a href="2026-W21.html">W21 · 18–24 May 2026</a> <span class="cnt">(4)</span> <a href="2026-W20.html">W20 · 11–17 May 2026</a> <span class="cnt">(1)</span> <a href="2026-W19.html">W19 · 4–10 May 2026</a> <span class="cnt">(58)</span></div></details><details><summary>April 2026</summary><div class="weeks"><a href="2026-W18.html">W18 · 27 Apr – 3 May 2026</a> <span class="cnt">(159)</span> <a href="2026-W17.html">W17 · 20–26 Apr 2026</a> <span class="cnt">(103)</span> <a href="2026-W16.html">W16 · 13–19 Apr 2026</a> <span class="cnt">(154)</span> <a href="2026-W15.html">W15 · 6–12 Apr 2026</a> <span class="cnt">(127)</span></div></details><details><summary>March 2026</summary><div class="weeks"><a href="2026-W14.html">W14 · 30 Mar – 5 Apr 2026</a> <span class="cnt">(166)</span> <a href="2026-W13.html">W13 · 23–29 Mar 2026</a> <span class="cnt">(182)</span> <a href="2026-W12.html">W12 · 16–22 Mar 2026</a> <span class="cnt">(209)</span> <a href="2026-W11.html">W11 · 9–15 Mar 2026</a> <span class="cnt">(206)</span> <a href="2026-W10.html">W10 · 2–8 Mar 2026</a> <span class="cnt">(188)</span></div></details><details><summary>February 2026</summary><div class="weeks"><a href="2026-W09.html">W09 · 23 Feb – 1 Mar 2026</a> <span class="cnt">(162)</span> <a href="2026-W08.html">W08 · 16–22 Feb 2026</a> <span class="cnt">(120)</span> <a href="2026-W07.html">W07 · 9–15 Feb 2026</a> <span class="cnt">(35)</span> <a href="2026-W06.html">W06 · 2–8 Feb 2026</a> <span class="cnt">(24)</span></div></details><details><summary>January 2026</summary><div class="weeks"><a href="2026-W05.html">W05 · 26 Jan – 1 Feb 2026</a> <span class="cnt">(16)</span></div></details></details><details><summary>2025</summary><details><summary>September 2025</summary><div class="weeks"><a href="2025-W38.html">W38 · 15–21 Sep 2025</a> <span class="cnt">(1)</span> <a href="2025-W37.html">W37 · 8–14 Sep 2025</a> <span class="cnt">(1)</span></div></details></details><details><summary>2024</summary><details><summary>October 2024</summary><div class="weeks"><a href="2024-W41.html">W41 · 7–13 Oct 2024</a> <span class="cnt">(71)</span></div></details><details><summary>September 2024</summary><div class="weeks"><a href="2024-W40.html">W40 · 30 Sep – 6 Oct 2024</a> <span class="cnt">(67)</span> <a href="2024-W39.html">W39 · 23–29 Sep 2024</a> <span class="cnt">(51)</span> <a href="2024-W38.html">W38 · 16–22 Sep 2024</a> <span class="cnt">(39)</span> <a href="2024-W37.html">W37 · 9–15 Sep 2024</a> <span class="cnt">(52)</span> <a href="2024-W36.html">W36 · 2–8 Sep 2024</a> <span class="cnt">(53)</span></div></details><details><summary>August 2024</summary><div class="weeks"><a href="2024-W35.html">W35 · 26 Aug – 1 Sep 2024</a> <span class="cnt">(29)</span></div></details><details><summary>April 2024</summary><div class="weeks"><a href="2024-W16.html">W16 · 15–21 Apr 2024</a> <span class="cnt">(1)</span></div></details></details><details><summary>2006</summary><details><summary>August 2006</summary><div class="weeks"><a href="2006-W32.html">W32 · 7–13 Aug 2006</a> <span class="cnt">(1)</span></div></details></details><details><summary>2003</summary><details><summary>March 2003</summary><div class="weeks"><a href="2003-W10.html">W10 · 3–9 Mar 2003</a> <span class="cnt">(1)</span></div></details></details></details>
 
 <section class="glossary">
-<h2 data-en="Legal words, explained" data-kr="법률 용어 쉬운 설명">Legal words, explained</h2>
-<dl><dt>Medium neutral citation (e.g. [2026] NSWSC 1234)</dt><dd>The standard reference number Australian courts give each decision: year, court code, and sequence number. It identifies the decision even before it appears in a law report.</dd><dt>Court / tribunal</dt><dd>Courts decide disputes between parties and can hear appeals. Tribunals (like the ART) re-examine government decisions on their merits — a quicker, less formal process.</dd><dt>Judicial review</dt><dd>A court checking whether a government or tribunal decision was legally made — the court looks at legal errors, not whether it agrees with the outcome.</dd><dt>Merits review</dt><dd>A tribunal (usually the Administrative Review Tribunal) re-making a government decision from scratch, considering all the facts again.</dd><dt>Visa cancellation (s 501)</dt><dd>Under section 501 of the Migration Act 1958, a visa can be refused or cancelled on &#x27;character&#x27; grounds, often because of a criminal record. Many tribunal cases on this site are appeals against such cancellations.</dd><dt>Set aside / affirmed</dt><dd>When a tribunal or appeal court &#x27;sets aside&#x27; a decision, it is cancelled and usually replaced. &#x27;Affirmed&#x27; means the original decision stands.</dd><dt>Applicant / respondent</dt><dd>The applicant is the person who brought the case; the respondent is the party responding to it (in tribunal matters, often a government minister or agency).</dd><dt>AustLII</dt><dd>The Australasian Legal Information Institute — a free public database that publishes the full text of Australian court and tribunal decisions. Every case on this page links to its full text there.</dd></dl>
+<h2 class="week" data-en="Legal words, explained" data-kr="법률 용어 쉬운 설명">Legal words, explained</h2>
+<dl><dt>Medium neutral citation (e.g. [2026] NSWSC 1234)</dt><dd>The standard reference number Australian courts give each decision: year, court code, and sequence number. It identifies the decision even before it appears in a law report.</dd><dt>Court / tribunal</dt><dd>Courts decide disputes between parties and can hear appeals. Tribunals (like the ART) re-examine government decisions on their merits, in a quicker, less formal process.</dd><dt>Judicial review</dt><dd>A court checking whether a government or tribunal decision was legally made. The court looks at legal errors, not whether it agrees with the outcome.</dd><dt>Merits review</dt><dd>A tribunal (usually the Administrative Review Tribunal) re-making a government decision from scratch, considering all the facts again.</dd><dt>Visa cancellation (s 501)</dt><dd>Under section 501 of the Migration Act 1958, a visa can be refused or cancelled on &#x27;character&#x27; grounds, often because of a criminal record. Many tribunal cases on this site are appeals against such cancellations.</dd><dt>Set aside / affirmed</dt><dd>When a tribunal or appeal court &#x27;sets aside&#x27; a decision, it is cancelled and usually replaced. &#x27;Affirmed&#x27; means the original decision stands.</dd><dt>Applicant / respondent</dt><dd>The applicant is the person who brought the case; the respondent is the party responding to it (in tribunal matters, often a government minister or agency).</dd><dt>AustLII</dt><dd>The Australasian Legal Information Institute: a free public database that publishes the full text of Australian court and tribunal decisions. Every case on this page links to its full text there.</dd></dl>
 </section>
 </main>
 
@@ -210,24 +220,100 @@
 <div class="fine">
   <p><span data-en="Not legal advice. Summaries are auto-generated from public data; the full text on AustLII is the authoritative version." data-kr="법률 자문이 아닙니다. 요약은 공개 데이터로 자동 생성되며, AustLII 원문이 정본입니다.">Not legal advice. Summaries are auto-generated from public data; the full text on AustLII is the authoritative version.</span></p>
   <p><span data-en="Source data:" data-kr="데이터 출처:">Source data:</span> <a href="https://www.austlii.edu.au" target="_blank" rel="noopener">AustLII</a>,
-     <span data-en="the free public library of Australian law. This page is regenerated automatically every morning." data-kr="호주 법률 무료 공개 데이터베이스입니다. 이 페이지는 매일 아침 자동으로 다시 생성됩니다.">the free public library of Australian law. This page is regenerated automatically every morning.</span>
-     <a href="https://github.com/changa9090/au-caselaw-digest" target="_blank" rel="noopener"><span data-en="Source code on GitHub" data-kr="GitHub 소스 코드">Source code on GitHub</span></a></p>
+     <span data-en="the free public library of Australian law. This page is regenerated automatically every morning." data-kr="호주 법률 무료 공개 데이터베이스입니다. 이 페이지는 매일 아침 자동으로 다시 생성됩니다.">the free public library of Australian law. This page is regenerated automatically every morning.</span></p>
+  <p><a href="../feed.xml"><span data-en="Atom feed (latest decisions)" data-kr="Atom 피드 (최신 판결)">Atom feed (latest decisions)</span></a>
+     &nbsp;·&nbsp; <a href="../topics/index.html"><span data-en="Topic feeds" data-kr="주제별 피드">Topic feeds</span></a>
+     &nbsp;·&nbsp; <a href="https://github.com/changa9090/au-caselaw-digest" target="_blank" rel="noopener"><span data-en="Source code on GitHub" data-kr="GitHub 소스 코드">Source code on GitHub</span></a></p>
   <p>Liability limited by a scheme approved under Professional Standards Legislation.</p>
 </div>
 </div></footer>
 <script>
 (function(){
-  var btn=document.getElementById('lang-toggle');
   var lang='en';
+  var STR={en:{copied:'Copied',failed:'Copy failed',count:'Showing {n} of {m} decisions'},
+           kr:{copied:'복사됨',failed:'복사 실패',count:'{m}건 중 {n}건 표시'}};
+  var btn=document.getElementById('lang-toggle');
+  var live=document.createElement('span');
+  live.className='sr-only';live.setAttribute('aria-live','polite');document.body.appendChild(live);
+  var shown=-1,total=0,countEl=document.getElementById('f-count');
+  function updateCount(){
+    if(!countEl||shown<0){return;}
+    countEl.textContent=STR[lang].count.replace('{n}',shown).replace('{m}',total);
+  }
   function apply(){
     document.querySelectorAll('[data-en]').forEach(function(el){
-      var t=el.getAttribute(lang==='en'?'data-en':'data-kr');
-      if(t!==null){el.textContent=t;}
+      var v=el.getAttribute(lang==='en'?'data-en':'data-kr');
+      if(v!==null){el.textContent=v;}
     });
     btn.textContent=lang==='en'?'한국어':'English';
     document.documentElement.lang=lang==='en'?'en':'ko';
+    updateCount();
   }
   btn.addEventListener('click',function(){lang=lang==='en'?'kr':'en';apply();});
+
+  function fallbackCopy(text){
+    var ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');
+    ta.style.position='fixed';ta.style.top='0';ta.style.opacity='0';document.body.appendChild(ta);
+    ta.select();var ok=false;try{ok=document.execCommand('copy');}catch(e){ok=false;}
+    document.body.removeChild(ta);return ok;
+  }
+  document.querySelectorAll('button.copy-cite').forEach(function(b){
+    b.hidden=false;
+    b.addEventListener('click',function(){
+      var text=b.getAttribute('data-cite');
+      function done(ok){
+        var msg=STR[lang][ok?'copied':'failed'];
+        b.textContent=msg;live.textContent=msg;b.classList.add('done');
+        setTimeout(function(){b.textContent=b.getAttribute(lang==='en'?'data-en':'data-kr');b.classList.remove('done');},1600);
+      }
+      if(navigator.clipboard&&window.isSecureContext){
+        navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(fallbackCopy(text));});
+      }else{done(fallbackCopy(text));}
+    });
+  });
+
+  var bar=document.getElementById('filters');
+  if(bar){
+    bar.hidden=false;
+    var q=document.getElementById('f-q'),court=document.getElementById('f-court');
+    var ratio=document.getElementById('f-ratio'),reset=document.getElementById('f-reset');
+    var tbtns=[].slice.call(bar.querySelectorAll('button.f-topic'));
+    var cards=[].slice.call(document.querySelectorAll('article.card[data-court]'));
+    var groups=[].slice.call(document.querySelectorAll('section.grp'));
+    total=cards.length;
+    cards.forEach(function(c){
+      var s='';['h3','.meta','.body','.ratio'].forEach(function(sel){var el=c.querySelector(sel);if(el){s+=' '+el.textContent;}});
+      c._txt=s.toLowerCase();
+    });
+    function pressed(b){return b.getAttribute('aria-pressed')==='true';}
+    function run(){
+      var terms=q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      var cv=court.value,ro=pressed(ratio);
+      var sel=tbtns.filter(pressed).map(function(b){return b.getAttribute('data-slug');});
+      var n=0;
+      cards.forEach(function(c){
+        var ok=!cv||c.getAttribute('data-court')===cv;
+        if(ok&&ro){ok=c.getAttribute('data-ratio')==='1';}
+        if(ok&&sel.length){
+          var ts=(c.getAttribute('data-topics')||'').split(' ');
+          ok=sel.some(function(s){return ts.indexOf(s)>=0;});
+        }
+        if(ok&&terms.length){ok=terms.every(function(w){return c._txt.indexOf(w)>=0;});}
+        c.hidden=!ok;if(ok){n++;}
+      });
+      groups.forEach(function(g){g.hidden=!g.querySelector('article.card:not([hidden])');});
+      shown=n;updateCount();
+    }
+    function toggle(b){b.setAttribute('aria-pressed',pressed(b)?'false':'true');run();}
+    tbtns.forEach(function(b){b.addEventListener('click',function(){toggle(b);});});
+    ratio.addEventListener('click',function(){toggle(ratio);});
+    q.addEventListener('input',run);court.addEventListener('change',run);
+    reset.addEventListener('click',function(){
+      q.value='';court.value='';ratio.setAttribute('aria-pressed','false');
+      tbtns.forEach(function(b){b.setAttribute('aria-pressed','false');});run();
+    });
+    run();
+  }
 })();
 </script>
 </body>
